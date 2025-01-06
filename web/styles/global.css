@@ -1,0 +1,52 @@
+#stDecoration {
+	background-image: linear-gradient(90deg, rgb(244 244 244), rgb(235 235 235));
+}
+
+div[data-testid="stHeader"] {
+	height: 1rem;
+}
+
+.stApp + header {
+	background-color: transparent;
+}
+
+.stApp {
+	margin: auto;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	overflow: auto;
+	animation: gradient 15s ease infinite;
+	background-attachment: fixed;
+}
+
+div[data-testid="stAppViewBlockContainer"] {
+	max-width: 80%;
+	padding: 4rem 1rem 1rem;
+}
+
+div[data-testid="chatAvatarIcon-user"] {
+	background-color: rgb(231, 231, 231);
+}
+
+div[data-testid="stChatMessage"] {
+	padding: 7px;
+}
+
+div[class^="stChatMessage st-emotion-cache"] {
+	border-color: rgb(230, 230, 230);
+	border-style: solid;
+	border-width: 1px;
+}
+
+div[data-testid="stSidebarNavItems"] {
+	padding: 0;
+	background-color: rgb(138, 57, 251);
+}
+
+div[data-testid="stForm"] {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+button[kind="primaryFormSubmit"] {
+	width: 100px;
+}

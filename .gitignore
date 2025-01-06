@@ -1,0 +1,8 @@
+DataFrame_Files/
+RAG_Materials/
+*.env
+*.pyc
+*.yaml
+*.yml
+*.xlsx
+
